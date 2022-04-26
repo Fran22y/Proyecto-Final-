@@ -1,0 +1,141 @@
+*{
+    font-family: 'Gill Sans Extrabold', sans-serif; 
+}
+body {
+	background-color: #427E80;
+	margin: 0px;
+}
+nav{
+ justify-content: space-between;
+ display: flex;
+ align-items: center;
+ margin: 0px 0px;
+ height: 110px;
+}
+.ImagenInicio {
+	width: 25px;
+	padding-left: 75px;
+}
+.links{
+ display: flex;
+ width: 400px;
+ justify-content: space-around;
+ list-style-type: none;
+}
+.link {
+    box-shadow: 5px 5px #154454;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: #F0F5E4;
+    color:#154454 ;
+	text-decoration: none;
+}
+
+main{
+    padding: 100px 20px;
+}
+
+h1{
+	text-shadow: 5px 5px black;
+    font-size: 60px ; 
+    text-align: center;
+    color: white;
+    background-color: #2d2d2d;
+
+}
+.PrimerCuadro {
+	padding: 75px 50px;
+	align-items: center;
+	display: flex;
+}
+.TituloHistoria {
+	font-size: 40px;
+	color: #F0F5E4;
+	text-shadow: 3px 3px #154454;
+    text-align: center;
+}
+.DescripcionHistoria {
+	width: 40%;
+	font-size: 18px;
+}
+.SegundoCuadro {
+	padding: 75px 50px;
+	align-items: center;
+	grid-gap: 70px;
+	display: flex;
+}
+.TercerCuadro {
+	display: flex;
+	align-items: center;
+    justify-content: space-around;
+	padding: 75px 50px;
+}
+header{
+ padding: 0px 100px;
+ align-items: center;
+ background: url(imagenes/codigo.jpeg) 50% 0 fixed ;
+ background-size: cover;
+ justify-content: space-around;
+ min-height: 600px;
+ display: flex;
+}
+.parrafo {
+	text-align: center;
+}
+.pie {
+	display: flex; 
+}
+.Foto {
+	size: 10px;
+}
+
+footer {
+	background-color: #1d1d1d;
+	padding: 0px 60px;
+	display: flex;
+	height: 80px;
+	justify-content: space-between;
+}
+
+h3 {
+	color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+.DescripcionHistoria3 {
+	width: 100%;
+	font-size: 18px;
+	grid-gap: 30px;
+}
+.Textos {
+	padding-left: 30px;
+}
+.BotonesVideo {
+    box-shadow: 5px 5px #154454;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #F0F5E4;
+    color:#154454 ;
+	text-decoration: none;
+	width: 100px;
+}
+.Barra { 
+    background-color: #1d1d1d;
+    border-radius: 10px;
+    padding: 2px 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.CuadroVideo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 100px 0px;
+}
+.Video {
+	padding: 5px;
+	background-color: black;
+	width: 65%;
+}

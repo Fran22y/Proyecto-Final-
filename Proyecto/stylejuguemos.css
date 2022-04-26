@@ -1,0 +1,124 @@
+*{
+    font-family: 'Gill Sans Extrabold', sans-serif; 
+}
+body {
+	background-color: #427E80;
+	margin: 0px;
+}
+nav{
+ justify-content: space-between;
+ display: flex;
+ align-items: center;
+ margin: 0px 0px;
+ height: 110px;
+}
+.ImagenInicio {
+	width: 25px;
+	padding-left: 75px;
+}
+.links{
+ display: flex;
+ width: 400px;
+ justify-content: space-around;
+ list-style-type: none;
+}
+.link {
+    box-shadow: 5px 5px #154454;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: #F0F5E4;
+    color:#154454 ;
+	text-decoration: none;
+}
+
+main{
+    padding: 100px 20px;
+}
+
+h1{
+	text-shadow: 5px 5px black;
+    font-size: 60px ; 
+    text-align: center;
+    color: white;
+    background-color: #2d2d2d;
+
+}
+
+h2 {
+	font-size: 40px;
+	color: #F0F5E4;
+	text-shadow: 5px 5px #154454;
+    text-align: center;
+}
+header{
+ padding: 0px 100px;
+ align-items: center;
+ background: url(imagenes/codigo.jpeg) 50% 0 fixed ;
+ background-size: cover;
+ justify-content: space-around;
+ min-height: 600px;
+ display: flex;
+}
+.parrafo {
+	text-align: center;
+}
+h3 {
+	color: white;
+    font-size: 16px;
+    text-align: center;
+}
+.Juego {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.Huecos {
+	display: flex;
+	flex-direction: row;
+}
+#Hueco1 {
+	height: 400px;
+	width: 285px;
+	background-color: grey;
+	border: 2px solid black;
+}
+#Hueco2 {
+	height: 400px;
+	width: 285px;
+	background-color: grey;
+	border: 2px solid black;
+}
+#Hueco3 {
+	height: 400px;
+	width: 285px;
+	background-color: grey;
+	border: 2px solid black;
+}
+.BotonReinicio {
+    box-shadow: 5px 5px #154454;
+    border-radius: 15px;
+    padding: 15px 100px;
+    background-color: #F0F5E4;
+    color:#154454 ;
+	text-decoration: none;
+	margin: auto;
+	display: flex;
+}
+#Imagenes {
+	display: flex;
+	grid-gap: 10px;
+	margin: 40px;
+	flex-direction: row;
+}
+#Imagen1 {	
+	height: 400px;
+	width: 285px;
+}
+#Imagen2 {	
+	height: 400px;
+	width: 285px;
+}
+#Imagen3 {	
+	height: 400px;
+	width: 285px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Proyeco-Final</title>
+	<link rel="stylesheet" href="stylejuguemos.css">
+</head>
+<body>
+	<nav>
+			<a class="ImagenInicio" href="index.html" title="Inicio">
+				<img class="Foto" src="imagenes/logo_pc.png" alt="Index">
+			</a>
+			<ul class="links">
+				<li class="Historialink">
+					<a href="historia.html" class="link">HISTORIA</a>
+				</li>
+				<li class="Juguemoslink">
+					<a href="juguemos.html" class="link">JUGUEMOS</a>
+				</li>
+			</ul>
+	</nav>
+	<header>
+		<h1 class="titulo">JUGUEMOS UN POCO</h1>
+	</header>
+	<main>
+	<h2 class="subtitulo">Armemos el rompecabezas y veamos que imagen es...</h2>
+	<section class="Juego">
+			<div class="Huecos">
+				<div id="Hueco1"><p>Arrastre y suelte la imágen aquí</p></div>
+				<div id="Hueco2"><p>Arrastre y suelte la imágen aquí</p></div>
+				<div id="Hueco3"><p>Arrastre y suelte la imágen aquí</p></div>
+			</div>
+			<div id="Imagenes">
+				<img id="Imagen1" src="imagenes/rompe2.png"></img>
+				<img id="Imagen2" src="imagenes/rompe1.png"></img>
+				<img id="Imagen3" src="imagenes/rompe3.png"></img>
+			</div>
+	</section>
+	<button onclick="reinicio()" class="BotonReinicio">Reiniciar</button>
+	</main>
+	<script src="Juguemos.js"></script>
+</body>
+</html>
